@@ -1,0 +1,25 @@
+{
+  "name": "graphql-apollo-express",
+  "version": "1.0.0",
+  "description": "Demo application for GraphQL using apollo server",
+  "main": "index.js",
+  "scripts": {
+    "dev": "babel-watch index.js"
+  },
+  "keywords": [],
+  "author": "Nirav Chavda",
+  "license": "ISC",
+  "dependencies": {
+    "apollo-server": "^2.9.3",
+    "apollo-server-express": "^2.9.3",
+    "express": "^4.17.1",
+    "graphql": "^14.5.4",
+    "opn": "^6.0.0"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.5.5",
+    "@babel/core": "^7.5.5",
+    "@babel/preset-env": "^7.5.5",
+    "babel-watch": "^7.0.0"
+  }
+}
